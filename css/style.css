@@ -1,0 +1,23 @@
+:root{
+  --font-size-sm: clamp(0.83rem, 0.01vw + 0.83rem, 0.84rem);  --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);  --font-size-md: clamp(1.2rem, 0.87vw + 0.98rem, 1.68rem);  --font-size-lg: clamp(1.44rem, 1.7vw + 1.02rem, 2.37rem);  --font-size-xl: clamp(1.73rem, 2.96vw + 0.99rem, 3.36rem);  --font-size-xxl: clamp(2.07rem, 4.86vw + 0.86rem, 4.75rem);  --font-size-xxxl: clamp(2.49rem, 7.68vw + 0.57rem, 6.71rem);  }
+  #flexbox{
+    display: flex;
+    flex-direction: column-reverse
+    margin: auto;
+  } 
+.fbmeaning{
+  display: block;
+}
+#flex{
+  flex-wrap: wrap;
+  background-color: brown;
+}
+.firstbox{
+  color: beige;
+}
+.secondbox{
+  color: aquamarine;
+}
+.thirdbox{
+  color: blueviolet;
+}
